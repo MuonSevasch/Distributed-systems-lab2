@@ -10,7 +10,7 @@ public class Flight{
     private static final String DELIMITER = ",";
 
 
-
+    private boolean isCancelled;
 
     private int airportId;
 
