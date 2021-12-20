@@ -1,4 +1,4 @@
-
+package bmstu.ru;
 
 public class Airport {
 
