@@ -51,7 +51,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
 
 
-
+    }
 
     public void readFields(DataInput dataInput) throws IOException {
         this.id = dataInput.readInt();
