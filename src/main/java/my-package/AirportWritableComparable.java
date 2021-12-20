@@ -13,7 +13,7 @@ enum Type{
 
 public class AirportWritableComparable implements WritableComparable<AirportWritableComparable> {
     private Type type;
-
+    private String name;
     private int id;
 
     public AirportWritableComparable(){
