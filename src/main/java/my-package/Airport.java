@@ -2,7 +2,7 @@
 
 public class Airport {
 
-
+    private String name;
     private static final String DELIMITER = ",";
 
     public Airport(String s){
