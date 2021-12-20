@@ -2,7 +2,7 @@ package bmstu.ru;
 
 
 
-
+import org.apache.hadoop.io.Text;
 
 
 import java.io.IOException;
