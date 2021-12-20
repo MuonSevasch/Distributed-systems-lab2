@@ -22,7 +22,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
 
 
-
+    }
 
 
 
