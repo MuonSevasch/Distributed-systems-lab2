@@ -12,7 +12,7 @@ import java.io.IOException;
 }
 
 public class AirportWritableComparable implements WritableComparable<AirportWritableComparable> {
-
+    private Type type;
 
     private int id;
 
