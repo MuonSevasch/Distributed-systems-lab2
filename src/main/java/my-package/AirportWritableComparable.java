@@ -29,7 +29,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
 
 
-
+        return name;
 
 
 
