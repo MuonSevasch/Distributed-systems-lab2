@@ -6,7 +6,7 @@ import org.apache.hadoop.io.WritableComparable;
 import java.io.DataOutput;
 import java.io.IOException;
 
-
+enum Type{
 
 
 }
