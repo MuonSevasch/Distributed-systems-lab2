@@ -33,7 +33,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
     }
 
 
-
+        this.id = id;
 
         this.name = name;
 
