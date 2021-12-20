@@ -36,7 +36,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
         this.id = id;
         this.type = type;
         this.name = name;
-
+    }
 
 
         int x = this.type.ordinal() -o.getType().ordinal();
