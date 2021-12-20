@@ -8,7 +8,7 @@ public class Airport {
     public Airport(String s){
 
         this.id = Integer.parseInt(data[0]);
-
+        this.name = data[1];
 
     }
 
