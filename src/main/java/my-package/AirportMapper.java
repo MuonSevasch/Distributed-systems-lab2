@@ -1,7 +1,7 @@
 package bmstu.ru;
 
 import org.apache.hadoop.io.FloatWritable;
-
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 
 
