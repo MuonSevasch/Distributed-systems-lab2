@@ -32,7 +32,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
         return name;
     }
 
-
+    public AirportWritableComparable(int id, String name, Type type){
         this.id = id;
         this.type = type;
         this.name = name;
