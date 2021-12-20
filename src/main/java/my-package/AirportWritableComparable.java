@@ -43,7 +43,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
         if (x != 0){
             return x;
         } else{
-
+            return o.id - this.id;
         }
 
 
