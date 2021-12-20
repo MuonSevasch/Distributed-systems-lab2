@@ -38,7 +38,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
         this.name = name;
     }
 
-
+    public int compareTo(AirportWritableComparable o) {
         int x = this.type.ordinal() -o.getType().ordinal();
         if (x != 0){
             return x;
