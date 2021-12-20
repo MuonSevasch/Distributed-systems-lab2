@@ -4,7 +4,7 @@
 
 public class Flight{
 
-
+    private static final int DELAY_TIME = 18;
 
 
 
