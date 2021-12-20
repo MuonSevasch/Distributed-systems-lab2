@@ -20,7 +20,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
     }
 
-
+    public int getId(){
         return id;
     }
 
