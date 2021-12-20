@@ -39,7 +39,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
 
 
-
+        int x = this.type.ordinal() -o.getType().ordinal();
 
 
 
