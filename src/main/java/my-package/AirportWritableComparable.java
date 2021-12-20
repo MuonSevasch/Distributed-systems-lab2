@@ -45,7 +45,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
         } else{
             return o.id - this.id;
         }
-
+    }
 
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(id);
