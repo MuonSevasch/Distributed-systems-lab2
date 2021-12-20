@@ -12,7 +12,7 @@ public class Flight{
 
 
 
-
+    private int airportId;
 
     public Flight (String s) throws IOException {
 
