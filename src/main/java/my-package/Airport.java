@@ -7,7 +7,7 @@ public class Airport {
 
 
 
-
+        this.id = Integer.parseInt(data[0]);
 
 
     }
