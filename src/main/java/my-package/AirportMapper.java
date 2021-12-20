@@ -14,6 +14,6 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritableCom
 
 
 
-
+                      new FlightWritable(data.getName(), 0, Type.AIRPORT));
 
 }
