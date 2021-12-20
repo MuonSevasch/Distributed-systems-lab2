@@ -18,6 +18,6 @@ public class Airport {
 
     public String getName() {
         return name;
-
+    }
 
 }
