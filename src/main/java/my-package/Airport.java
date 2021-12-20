@@ -16,7 +16,7 @@ public class Airport {
         return this.id;
     }
 
-
+    public String getName() {
         return name;
 
 
