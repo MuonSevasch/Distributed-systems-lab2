@@ -35,7 +35,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
 
 
-
+        this.name = name;
 
 
 
