@@ -44,7 +44,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
             return x;
         } else{
 
-
+        }
 
 
     public void write(DataOutput dataOutput) throws IOException {
