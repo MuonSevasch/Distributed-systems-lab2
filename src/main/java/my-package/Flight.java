@@ -30,6 +30,6 @@ public class Flight{
     }
 
     public int getAirportId() {
-
+        return airportId;
 
 }
