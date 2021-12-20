@@ -41,7 +41,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
         int x = this.type.ordinal() -o.getType().ordinal();
         if (x != 0){
-
+            return x;
         } else{
 
 
