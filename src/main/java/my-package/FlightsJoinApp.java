@@ -12,7 +12,7 @@ import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 
 
 public class FlightsJoinApp {
-
+    private static final String usageString = "Usage: WordCountApp <input path> <input path> <output path>";
 
 
 
