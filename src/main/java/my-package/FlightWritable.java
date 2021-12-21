@@ -40,6 +40,6 @@ public class FlightWritable implements Writable {
     public void readFields(DataInput dataInput) throws IOException {
         this.name = dataInput.readUTF();
 
-
+        this.type = Type.values()[dataInput.readInt()];
     }
 }
