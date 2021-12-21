@@ -3,7 +3,7 @@ package bmstu.ru;
 import java.io.IOException;
 
 public class Flight{
-
+    private static final int IS_CANCELLED = 19;
     private static final int DELAY_TIME = 18;
     private static final int AIRPORT_ID = 14;
 
