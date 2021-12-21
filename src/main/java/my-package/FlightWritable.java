@@ -1,6 +1,6 @@
 package bmstu.ru;
 
-
+import org.apache.hadoop.io.Writable;
 
 import java.io.DataInput;
 
