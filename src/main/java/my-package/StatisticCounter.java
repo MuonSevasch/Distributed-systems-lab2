@@ -30,7 +30,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
             averageDelay += delay;
             minDelay = Math.min(minDelay, delay);
 
-
+        }
 
         if (cnt > 0) {
             averageDelay /= cnt;
