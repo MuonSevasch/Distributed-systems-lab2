@@ -17,7 +17,7 @@ public class FlightWritable implements Writable {
 
     public float getDelay() {
         return delay;
-
+    }
 
     public Type getType() {
         return type;
