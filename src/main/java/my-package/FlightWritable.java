@@ -41,5 +41,5 @@ public class FlightWritable implements Writable {
         this.name = dataInput.readUTF();
         this.delay = dataInput.readFloat();
         this.type = Type.values()[dataInput.readInt()];
-
+    }
 }
