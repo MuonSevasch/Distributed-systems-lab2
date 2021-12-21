@@ -32,7 +32,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
             maxDelay = Math.max(maxDelay, delay);
         }
 
-        if (cnt > 0) {
+
             averageDelay /= cnt;
             context.write(new IntWritable(key.getId()),
                           new Text(String.format(format, name, averageDelay, minDelay, maxDelay, cnt)));
