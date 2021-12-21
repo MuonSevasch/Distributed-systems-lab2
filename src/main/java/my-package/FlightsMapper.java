@@ -14,7 +14,7 @@ public class FlightsMapper extends Mapper<LongWritable, Text, bmstu.ru.AirportWr
         Flight data = new Flight(value.toString());
 
 
-
+                    new FlightWritable("", data.getDelayTime(), Type.FLIGHT));
         }
     }
 }

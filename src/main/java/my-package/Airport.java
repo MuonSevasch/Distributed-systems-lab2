@@ -16,7 +16,7 @@ package bmstu.ru;
         return this.id;
 
 
-    public String getName() {
+
         return name;
 
 
