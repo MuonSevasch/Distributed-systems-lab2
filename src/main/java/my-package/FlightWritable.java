@@ -25,7 +25,7 @@ public class FlightWritable implements Writable {
 
 
 
-
+    public FlightWritable(String name, float delay, Type type){
 
 
         this.type = type;
