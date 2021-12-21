@@ -9,7 +9,7 @@ import java.io.IOException;
 
 
 
-
+    @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         Airport data =  new Airport(value.toString());
 
