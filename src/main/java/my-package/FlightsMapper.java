@@ -15,6 +15,6 @@ public class FlightsMapper extends Mapper<LongWritable, Text, bmstu.ru.AirportWr
         if (!data.isCancelled()) {
 
                     new FlightWritable("", data.getDelayTime(), Type.FLIGHT));
-        }
+
     }
 }
