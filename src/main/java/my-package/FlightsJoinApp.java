@@ -6,7 +6,7 @@
 
 
 
-
+import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 
 
 
