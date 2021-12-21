@@ -1,6 +1,6 @@
 package bmstu.ru;
 
-
+import java.io.IOException;
 
 public class Flight{
 
