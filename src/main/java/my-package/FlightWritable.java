@@ -9,7 +9,7 @@ import java.io.IOException;
 public class FlightWritable implements Writable {
 
 
-
+    private Type type;
 
 
         return name;
