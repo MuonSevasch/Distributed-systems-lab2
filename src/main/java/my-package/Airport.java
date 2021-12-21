@@ -1,7 +1,7 @@
 package bmstu.ru;
 
 
-
+    private int id;
 
     private static final String DELIMITER = ",";
 
