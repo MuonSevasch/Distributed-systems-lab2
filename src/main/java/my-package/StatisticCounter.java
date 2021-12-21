@@ -13,7 +13,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
 
     protected void reduce(bmstu.ru.AirportWritableComparable key, Iterable<FlightWritable> values, Context context) throws IOException, InterruptedException {
         float averageDelay = 0;
-
+        float maxDelay = 0;
 
 
 
