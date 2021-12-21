@@ -13,7 +13,7 @@ package bmstu.ru;
 
 
     public int getId(){
-
+        return this.id;
 
 
 
