@@ -33,7 +33,7 @@ public class FlightWritable implements Writable {
 
     public void write(DataOutput dataOutput) throws IOException {
 
-
+        dataOutput.writeFloat(delay);
         dataOutput.writeInt(type.ordinal());
     }
 
