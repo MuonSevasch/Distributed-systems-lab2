@@ -16,7 +16,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
         float maxDelay = 0;
 
 
-
+        String name = " ";
 
         int cnt = 0;
 
