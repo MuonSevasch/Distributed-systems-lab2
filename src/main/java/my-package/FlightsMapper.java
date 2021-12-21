@@ -5,7 +5,7 @@ import org.apache.hadoop.io.FloatWritable;
 
 import org.apache.hadoop.mapreduce.Mapper;
 
-
+import java.io.IOException;
 
 public class FlightsMapper extends Mapper<LongWritable, Text, bmstu.ru.AirportWritableComparable, FlightWritable> {
 
