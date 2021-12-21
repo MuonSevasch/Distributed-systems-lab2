@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class FlightWritable implements Writable {
     private String name;
-
+    private float delay;
     private Type type;
 
 
