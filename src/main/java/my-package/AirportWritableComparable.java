@@ -8,7 +8,7 @@ import java.io.IOException;
 
 enum Type{
     AIRPORT,
-
+    FLIGHT
 }
 
 public class AirportWritableComparable implements WritableComparable<AirportWritableComparable> {
