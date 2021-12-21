@@ -18,7 +18,7 @@ public class FlightsJoinApp {
     public static void main(String[] args) throws Exception {
         if (args.length != 3) {
             System.err.println(usageString);
-
+            System.exit(-1);
 
         Job job = Job.getInstance();
         job.setJarByClass(FlightsJoinApp.class);
