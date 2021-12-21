@@ -13,7 +13,7 @@ public class FlightsMapper extends Mapper<LongWritable, Text, bmstu.ru.AirportWr
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         Flight data = new Flight(value.toString());
         if (!data.isCancelled()) {
-
+            context.write(new AirportWritableComparable(data.getAirportId(), "", Type.FLIGHT),
                     new FlightWritable("", data.getDelayTime(), Type.FLIGHT));
         }
     }
