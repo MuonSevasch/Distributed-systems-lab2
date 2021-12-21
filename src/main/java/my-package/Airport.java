@@ -18,6 +18,6 @@ package bmstu.ru;
 
     public String getName() {
         return name;
-    }
+
 
 }
