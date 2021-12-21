@@ -37,7 +37,7 @@ public class FlightWritable implements Writable {
         dataOutput.writeInt(type.ordinal());
     }
 
-    public void readFields(DataInput dataInput) throws IOException {
+
         this.name = dataInput.readUTF();
         this.delay = dataInput.readFloat();
         this.type = Type.values()[dataInput.readInt()];
