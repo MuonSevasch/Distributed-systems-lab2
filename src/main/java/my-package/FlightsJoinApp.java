@@ -33,7 +33,7 @@ public class FlightsJoinApp {
         job.setMapOutputValueClass(FlightWritable.class);
 
 
-
+        job.setPartitionerClass(FlightPartitioner.class);
         job.setReducerClass(StatisticCounter.class);
 
         job.setOutputKeyClass(IntWritable.class);
