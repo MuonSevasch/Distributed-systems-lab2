@@ -34,7 +34,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
 
         if (cnt > 0) {
 
-
+            context.write(new IntWritable(key.getId()),
 
         }
 
