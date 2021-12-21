@@ -21,7 +21,7 @@ public class Flight{
         this.delayTime = (data[DELAY_TIME].equals("")) ? 0 : Float.parseFloat(data[DELAY_TIME]);
     }
 
-    public boolean isCancelled() {
+
         return isCancelled;
     }
 
