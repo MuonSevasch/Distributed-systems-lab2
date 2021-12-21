@@ -31,7 +31,7 @@ public class FlightWritable implements Writable {
         this.type = type;
 
 
-
+    public void write(DataOutput dataOutput) throws IOException {
 
 
         dataOutput.writeInt(type.ordinal());
