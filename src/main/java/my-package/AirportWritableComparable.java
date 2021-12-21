@@ -49,7 +49,7 @@ public class AirportWritableComparable implements WritableComparable<AirportWrit
 
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(id);
-
+        dataOutput.writeInt(type.ordinal());
 
     }
 
