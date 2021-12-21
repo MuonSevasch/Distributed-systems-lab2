@@ -8,7 +8,7 @@ public class Flight{
 
 
     private static final String DELIMITER = ",";
-
+    private static final String CANCELLED_FLAG = "1.00";
 
     private boolean isCancelled;
 
