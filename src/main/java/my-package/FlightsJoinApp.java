@@ -27,7 +27,7 @@ public class FlightsJoinApp {
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsMapper.class);
 
 
-
+        FileOutputFormat.setOutputPath(job,new Path(args[2]));
 
         job.setMapOutputKeyClass(AirportWritableComparable.class);
         job.setMapOutputValueClass(FlightWritable.class);
