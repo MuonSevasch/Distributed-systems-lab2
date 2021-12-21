@@ -38,7 +38,7 @@ public class FlightWritable implements Writable {
     }
 
 
-
+        this.name = dataInput.readUTF();
 
 
     }
