@@ -20,7 +20,7 @@ public class FlightWritable implements Writable {
     }
 
     public Type getType() {
-        return type;
+
     }
 
     public FlightWritable(){ }
