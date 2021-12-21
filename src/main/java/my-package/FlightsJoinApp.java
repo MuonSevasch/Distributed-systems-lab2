@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class FlightsJoinApp {
     private static final String usageString = "Usage: WordCountApp <input path> <input path> <output path>";
-
+    private static final String jobName = "Flights Join App";
 
 
         if (args.length != 3) {
