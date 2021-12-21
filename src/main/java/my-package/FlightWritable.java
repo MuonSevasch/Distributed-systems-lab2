@@ -34,7 +34,7 @@ public class FlightWritable implements Writable {
 
 
 
-
+        dataOutput.writeInt(type.ordinal());
     }
 
 
