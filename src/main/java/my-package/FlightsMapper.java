@@ -12,7 +12,7 @@ public class FlightsMapper extends Mapper<LongWritable, Text, bmstu.ru.AirportWr
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         Flight data = new Flight(value.toString());
-
+        if (!data.isCancelled()) {
 
                     new FlightWritable("", data.getDelayTime(), Type.FLIGHT));
         }
