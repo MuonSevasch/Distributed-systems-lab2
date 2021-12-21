@@ -22,7 +22,7 @@ public class Flight{
     }
 
     public boolean isCancelled() {
-        return isCancelled;
+
     }
 
     public float getDelayTime() {
