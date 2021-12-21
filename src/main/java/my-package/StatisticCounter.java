@@ -18,7 +18,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
 
 
 
-
+        int cnt = 0;
 
 
             if (delayWritable.getType() == Type.AIRPORT){
