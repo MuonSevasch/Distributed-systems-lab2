@@ -34,7 +34,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
 
 
             averageDelay /= cnt;
-            context.write(new IntWritable(key.getId()),
+
                           new Text(String.format(format, name, averageDelay, minDelay, maxDelay, cnt)));
         }
     }
