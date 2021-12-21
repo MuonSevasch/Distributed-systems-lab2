@@ -11,7 +11,7 @@ public class Flight{
     private static final String CANCELLED_FLAG = "1.00";
 
     private boolean isCancelled;
-
+    private float delayTime;
     private int airportId;
 
     public Flight (String s) throws IOException {
