@@ -17,7 +17,7 @@ public class FlightsJoinApp {
 
 
         if (args.length != 3) {
-
+            System.err.println(usageString);
 
         }
 
