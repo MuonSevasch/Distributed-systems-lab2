@@ -7,4 +7,4 @@ public class FlightPartitioner extends Partitioner<AirportWritableComparable, Fl
     public int getPartition(AirportWritableComparable key, FlightWritable val, int i) {
 
     }
-
+}
