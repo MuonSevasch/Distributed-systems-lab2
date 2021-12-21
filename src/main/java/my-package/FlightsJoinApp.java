@@ -16,7 +16,7 @@ public class FlightsJoinApp {
 
 
 
-
+        if (args.length != 3) {
 
 
         }
