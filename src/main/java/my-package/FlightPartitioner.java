@@ -1,4 +1,4 @@
-
+package bmstu.ru;
 
 import org.apache.hadoop.mapreduce.Partitioner;
 
