@@ -32,7 +32,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
 
 
 
-
+        if (cnt > 0) {
 
 
 
