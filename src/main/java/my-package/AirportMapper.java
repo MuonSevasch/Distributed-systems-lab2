@@ -10,7 +10,7 @@ import org.apache.hadoop.io.Text;
 
 
 
-
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 
 
         context.write(new AirportWritableComparable(data.getId(), data.getName(), Type.AIRPORT),
