@@ -10,7 +10,7 @@ import java.io.IOException;
 public class FlightsMapper extends Mapper<LongWritable, Text, bmstu.ru.AirportWritableComparable, FlightWritable> {
 
     @Override
-
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 
         if (!data.isCancelled()) {
             context.write(new AirportWritableComparable(data.getAirportId(), "", Type.FLIGHT),
