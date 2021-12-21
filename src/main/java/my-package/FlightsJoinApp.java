@@ -30,7 +30,7 @@ public class FlightsJoinApp {
 
 
         job.setMapOutputKeyClass(AirportWritableComparable.class);
-
+        job.setMapOutputValueClass(FlightWritable.class);
 
 
 
