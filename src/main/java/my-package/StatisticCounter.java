@@ -29,7 +29,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
             float delay = delayWritable.getDelay();
             averageDelay += delay;
             minDelay = Math.min(minDelay, delay);
-
+            maxDelay = Math.max(maxDelay, delay);
         }
 
         if (cnt > 0) {
