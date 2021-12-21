@@ -26,7 +26,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
             }
 
             cnt ++;
-
+            float delay = delayWritable.getDelay();
 
 
 
