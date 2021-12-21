@@ -25,7 +25,7 @@ public class Flight{
         return isCancelled;
     }
 
-
+    public float getDelayTime() {
         return delayTime;
     }
 
