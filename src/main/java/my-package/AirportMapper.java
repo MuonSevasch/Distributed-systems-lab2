@@ -2,7 +2,7 @@
 
 import org.apache.hadoop.io.FloatWritable;
 
-import org.apache.hadoop.io.Text;
+
 
 
 
