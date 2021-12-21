@@ -24,7 +24,7 @@ public class FlightsJoinApp {
 
 
 
-
+        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsMapper.class);
 
 
 
