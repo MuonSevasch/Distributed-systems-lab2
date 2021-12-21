@@ -29,7 +29,7 @@ public class FlightsJoinApp {
 
 
 
-
+        job.setMapOutputKeyClass(AirportWritableComparable.class);
 
 
 
