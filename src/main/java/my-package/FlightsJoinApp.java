@@ -20,7 +20,7 @@ public class FlightsJoinApp {
             System.err.println(usageString);
             System.exit(-1);
         }
-        Job job = Job.getInstance();
+
         job.setJarByClass(FlightsJoinApp.class);
         job.setJobName(jobName);
 
