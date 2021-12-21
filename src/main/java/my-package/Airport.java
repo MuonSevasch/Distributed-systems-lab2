@@ -1,6 +1,6 @@
 package bmstu.ru;
 
-
+public class Airport {
     private int id;
     private String name;
     private static final String DELIMITER = ",";
