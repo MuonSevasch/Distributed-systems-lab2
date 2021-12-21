@@ -25,7 +25,7 @@ public class StatisticCounter extends Reducer<bmstu.ru.AirportWritableComparable
 
             }
 
-
+            cnt ++;
 
 
 
