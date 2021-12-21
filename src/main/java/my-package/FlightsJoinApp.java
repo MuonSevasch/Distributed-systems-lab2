@@ -15,7 +15,7 @@ public class FlightsJoinApp {
     private static final String usageString = "Usage: WordCountApp <input path> <input path> <output path>";
     private static final String jobName = "Flights Join App";
 
-
+    public static void main(String[] args) throws Exception {
         if (args.length != 3) {
             System.err.println(usageString);
             System.exit(-1);
