@@ -22,7 +22,7 @@ public class FlightsJoinApp {
         }
 
         job.setJarByClass(FlightsJoinApp.class);
-
+        job.setJobName(jobName);
 
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsMapper.class);
 
