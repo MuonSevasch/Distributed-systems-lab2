@@ -15,5 +15,5 @@ import java.io.IOException;
 
         context.write(new AirportWritableComparable(data.getId(), data.getName(), Type.AIRPORT),
                       new FlightWritable(data.getName(), 0, Type.AIRPORT));
-
+    }
 }
