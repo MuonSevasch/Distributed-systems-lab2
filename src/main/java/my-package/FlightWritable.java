@@ -29,7 +29,7 @@ public class FlightWritable implements Writable {
 
 
         this.type = type;
-
+    }
 
     public void write(DataOutput dataOutput) throws IOException {
 
