@@ -1,6 +1,6 @@
 
 
-
+import java.io.IOException;
 
 public class Flight{
     private static final int IS_CANCELLED = 19;
