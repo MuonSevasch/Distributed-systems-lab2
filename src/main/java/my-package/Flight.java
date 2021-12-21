@@ -16,7 +16,7 @@ public class Flight{
 
     public Flight (String s) throws IOException {
         String[] data = s.split(DELIMITER);
-
+        this.airportId = Integer.parseInt(data[AIRPORT_ID]);
         this.isCancelled = data[IS_CANCELLED].equals(CANCELLED_FLAG);
         this.delayTime = (data[DELAY_TIME].equals("")) ? 0 : Float.parseFloat(data[DELAY_TIME]);
     }
