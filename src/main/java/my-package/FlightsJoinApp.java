@@ -36,7 +36,7 @@ public class FlightsJoinApp {
 
 
 
-
+        job.setOutputKeyClass(IntWritable.class);
 
         job.setNumReduceTasks(2);
 
