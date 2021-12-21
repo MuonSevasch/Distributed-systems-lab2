@@ -10,7 +10,7 @@ import java.io.IOException;
 
 
 
-    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+
         Airport data =  new Airport(value.toString());
 
         context.write(new AirportWritableComparable(data.getId(), data.getName(), Type.AIRPORT),
