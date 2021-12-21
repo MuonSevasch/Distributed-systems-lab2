@@ -5,7 +5,7 @@ package bmstu.ru;
 public class Flight{
 
     private static final int DELAY_TIME = 18;
-
+    private static final int AIRPORT_ID = 14;
 
     private static final String DELIMITER = ",";
     private static final String CANCELLED_FLAG = "1.00";
