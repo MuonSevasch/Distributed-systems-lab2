@@ -13,7 +13,7 @@ public class FlightWritable implements Writable {
 
 
         return name;
-
+    }
 
 
         return delay;
