@@ -34,7 +34,7 @@ public class FlightsJoinApp {
 
         job.setGroupingComparatorClass(FlightComparator.class);
         job.setPartitionerClass(FlightPartitioner.class);
-
+        job.setReducerClass(StatisticCounter.class);
 
         job.setOutputKeyClass(IntWritable.class);
 
