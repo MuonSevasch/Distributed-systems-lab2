@@ -10,7 +10,7 @@ package bmstu.ru;
         this.id = Integer.parseInt(data[0]);
 
 
-    }
+
 
     public int getId(){
         return this.id;
