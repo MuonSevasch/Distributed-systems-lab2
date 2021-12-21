@@ -23,7 +23,7 @@ public class FlightWritable implements Writable {
         return type;
     }
 
-
+    public FlightWritable(){ }
 
     public FlightWritable(String name, float delay, Type type){
 
